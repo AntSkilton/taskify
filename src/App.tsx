@@ -15,7 +15,7 @@ const App: React.FC = () => {
     if (todo) {
       setTodos([...todos,{
         id:Date.now(),
-        todo: todo,
+        todoText: todo,
         isDone: false
         }
       ]);
