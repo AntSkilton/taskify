@@ -48,11 +48,10 @@ export const SingleTodo = ({todo, todos, setTodos}: Props) => {
   return (
     <form className="todos__single">
       {
-        edit?(
+        edit ? (
           <input className='todos_single--text'
-          ref = {inputRef}
-          onSubmit={ (e)=> handleEdit(e, todo.id)}
           value={editTodo}
+          ref = {inputRef}
           onChange={ (e)=> setEditTodo(e.target.value)
           }/>
         ) : (
