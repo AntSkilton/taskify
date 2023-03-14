@@ -1,3 +1,10 @@
+# Taskify
+This is a project where you can create, update and delete tasks in a todo list, built on the foundations of using Typescript and React.
+
+![Alt text](image.png)
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
